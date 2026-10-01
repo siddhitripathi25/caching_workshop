@@ -89,11 +89,4 @@ async function deleteProduct(id) {
     return product;
 }
 
-module.exports = {
-    getProducts,
-    getProductById,
-    createProduct,
-    updateProduct,
-    patchProduct,
-    deleteProduct
-};
+module.exports = {getProducts,getProductById,createProduct,updateProduct,patchProduct,deleteProduct};

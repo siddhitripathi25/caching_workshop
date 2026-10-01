@@ -34,8 +34,4 @@ function clearCache() {
     });
 }
 
-module.exports = {
-    cacheMiddleware,
-    clearCache,
-    cache
-};
+module.exports = {cacheMiddleware,clearCache,cache};
